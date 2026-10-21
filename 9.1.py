@@ -15,6 +15,8 @@ class Auto:
         if self.nykyinen_nopeus < 0:
             self.nykyinen_nopeus = 0
 
+    def kulje(self, tuntimaara):
+        self.kuljettu_matka += self.nykyinen_nopeus * tuntimaara
 
 
 auto1 = Auto("ABC-123", 142)

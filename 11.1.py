@@ -14,7 +14,7 @@ class Kirja(Julkaisu):
         print(f"Kirjoittaja: {self.kirjoittaja}")
         print(f"Sivumäärä: {self.sivumaara}")
 
-
+#szo
 class Lehti(Julkaisu):
     def __init__(self, nimi, paatoimittaja):
         super().__init__(nimi)
